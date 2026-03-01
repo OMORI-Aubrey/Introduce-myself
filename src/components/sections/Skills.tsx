@@ -1,7 +1,12 @@
+import '/src/styles/sections/Skills.css'
+
+
 const Skills = () => {
   return (
     <>
-      기술스택
+      <section>
+        기술스택
+      </section>
     </>
   );
 }

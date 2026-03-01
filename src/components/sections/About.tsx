@@ -1,7 +1,12 @@
+import '/src/styles/sections/About.css'
+
+
 const About = () => {
   return (
     <>
-      자기소개
+      <section>
+        자기소개
+      </section>
     </>
   );
 }
