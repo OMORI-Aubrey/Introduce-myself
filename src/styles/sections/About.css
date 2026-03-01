@@ -9,3 +9,16 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+.introduces {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.introduces li::before {
+  content: "- ";
+}
