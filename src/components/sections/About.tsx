@@ -1,5 +1,8 @@
 import '/src/styles/sections/About.css'
 import '/src/styles/global.css'
+import { name } from '../../data/name'
+import { introduces } from '../../data/introduces'
+import { email } from '../../data/email'
 
 
 const About = () => {
@@ -7,19 +10,19 @@ const About = () => {
     <>
       <section className='section'>
         <h1 className='myName'>
-          <span className='white-text'>Sim</span>
+          <span className='white-text'>{name.firstName}</span>
           &nbsp;
-          <span className='gradient-text'>Jaeyun</span>
+          <span className='gradient-text'>{name.lastName}</span>
         </h1>
 
         <ul className='introduces white-text'>
-          <li>나이는 21세</li>
-          <li>현재 대학생</li>
-          <li>초보 개발자</li>
+          {introduces.map((introduce, index) => (
+            <li key={index}>{introduce}</li>
+          ))}
         </ul>
 
         <p className='contact'>
-          sim_518@naver.com
+          {email}
         </p>
 
         <div className='icons'>

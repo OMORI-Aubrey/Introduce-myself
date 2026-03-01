@@ -1,0 +1,1 @@
+export const email: string = "sim_518@naver.com" 
