@@ -4,5 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
+.white-text {
+  color: #F2F2F2;
+}

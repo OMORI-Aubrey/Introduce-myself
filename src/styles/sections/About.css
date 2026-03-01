@@ -1,0 +1,11 @@
+.myName {
+  font-size: 6rem;
+}
+
+.gradient-text {
+  font-weight: bold;
+  background: linear-gradient(to right, #FF6EC7, #9B59B6);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
