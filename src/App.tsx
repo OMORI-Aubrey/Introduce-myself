@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <main>
-        <About />
-        <Skills />
+        <div className="container">
+          <About />
+          <Skills />
+        </div>
       </main>
     </>
   )
