@@ -13,7 +13,7 @@
 .introduces {
   list-style: none;
   padding-left: 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -21,4 +21,15 @@
 
 .introduces li::before {
   content: "- ";
+}
+
+.contact {
+  color: #B0B0B0;
+}
+
+.readMore-Btn {
+  background: none;
+  border: none;
+  font-size: 17px;
+  color: #E0E0E0;
 }

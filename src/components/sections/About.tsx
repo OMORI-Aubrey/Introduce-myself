@@ -18,7 +18,7 @@ const About = () => {
           <li>초보 개발자</li>
         </ul>
 
-        <p className='contact gray-text'>
+        <p className='contact'>
           sim_518@naver.com
         </p>
 
@@ -26,7 +26,7 @@ const About = () => {
 
         </div>
 
-        <button className='readMoreBtn'>
+        <button className='readMore-Btn'>
           더보기
         </button>
       </section>
